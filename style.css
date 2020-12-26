@@ -1,0 +1,57 @@
+/* CASCADA!!! TENER CUIDADO CUANDO REESCRIBIMOS PROPIEDADES DE ELEMENTOS PORQUE SIEMPRE QUEDA EL ULIMTO QUE PONEMOS */
+input[type=text], select, textarea{
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black; /*  sirve para poner borde nada mas despues hay que darle el radius para poder darle estilo */
+    border-radius: 5px; /*sirve para darle un borde redondo podes ponerle 4 valores que corresponde a las puntas */
+    /* background-image: url(); 
+    background-repeat: no-repeat;
+    background-position: 10px; */
+    resize: vertical;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: block;
+}
+
+/* ::placeholder{
+    color: aqua;
+} */
+
+/* input :focus {
+    border: 2px solid red;
+} sirve para cambiar el color de los bordes cuando esta el cursor encima */
+
+select{
+    width: 100%;
+    height: 40px;
+    margin: 8px 0px;
+}
+
+button {
+    background-color:green;
+    border:none;
+    color: black;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+/* Cuando pase el cursor encima haga tales acciones */
+button:hover{
+background-color: greenyellow;
+}
+
+.container{
+    border-radius: 4px;
+    background-color:white;
+    padding: 18px;
+    width: 500px;
+    margin: auto;
+}
+
+body{
+    background-color: wheat;
+}
