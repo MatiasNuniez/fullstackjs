@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Formulario estilizado con css</h1>
         <form action="http://localhost:3000" method="POST">
-        <label for="nombre">Nombre</label>
-        <input type="text" placeholder="Ingrese nombre" id="nombre">
-        <label for="apellido">Apellido</label>
-        <input type="text" placeholder="Ingrese apellido" id="apellido">
-        <label for="pais">Pais</label>
-        <select name="pais" id="pais">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Ingrese nombre" id="nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Ingrese apellido" id="apellido">
+            <label for="pais">Pais</label>
+            <select name="pais" id="pais">
             <option disabled selected >Seleccione</option> <!--Sirve para desabilitar cuando seleccione otro y no pueda volverlo a seleccionar -->
             <option value="argentina">Argentina</option>
             <option value="brasil">Brasil</option>
             <option value="mexico">Mexico</option>
             <option value="colombia">Colombia</option>
         </select>
-        <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button>
         </form>
     </div>
 </body>
+<script src="async-await.js"></script>
+
 </html>

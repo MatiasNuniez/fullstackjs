@@ -9,6 +9,8 @@
 // persona.dni
 // persona.email
 
+//-----------------------------------------------------------------------------------------------------------------------
+
 // importante en js es window que tiene todas las propiedades de la ventana en la que estamos 
 //document 
 
@@ -17,6 +19,8 @@
 //Arrays 
 // const myArray = [1, 2, 3, 'hola', 28, { a: 1 }]
 // console.log(myArray);
+
+//-----------------------------------------------------------------------------------------------------------------------
 
 //iteradores
 
